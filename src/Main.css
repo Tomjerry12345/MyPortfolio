@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h5 {
+  font-family: "Ravi Prakash";
+}
+
+p {
+  font-family: "Red Hat Display";
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.wrapper {
+  color: whitesmoke;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.wrapper section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+}
+
+.myButton {
+  font-size: 22px;
+}
+
+.myButton:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.btnAboutMe:hover {
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "Ravi Prakash";
+  src: local("Ravi Prakash"), url(./asset/fonts/RaviPrakash-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: local("Red Hat Display"), url(./asset/fonts/RedHatDisplay-Regular.ttf) format("truetype");
+}
